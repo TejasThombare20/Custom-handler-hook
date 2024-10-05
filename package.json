@@ -2,16 +2,21 @@
   "name": "custom-handler-hook",
   "version": "1.0.0",
   "description": "Package providing a hook for model component handling",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "npm test",
-    "build" : "tsc",
+    "build": "tsc",
     "prepublishOnly": "npm run build"
   },
   "files": [
     "dist"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TejasThombare20/Custom-handler-hook.git"
+  },
+  "author": "Tejas Thombare",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^18.3.4",
