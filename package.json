@@ -1,0 +1,23 @@
+{
+  "name": "custom-handler-hook",
+  "version": "1.0.0",
+  "description": "Package providing a hook for model component handling",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build" : "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.4"
+  }
+}
