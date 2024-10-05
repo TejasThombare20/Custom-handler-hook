@@ -2,6 +2,15 @@
   "name": "custom-handler-hook",
   "version": "1.0.0",
   "description": "Package providing a hook for model component handling",
+  "keywords": [
+    "react",
+    "editor",
+    "modal",
+    "context",
+    "typescript",
+    "ui",
+    "component"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
