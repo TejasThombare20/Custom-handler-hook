@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useReducer } from "react";
-import { ModalContext, ModalData } from "./ModelContext";
+import { ModalContext, ModalData } from "../Hooks/state/ModelContext";
 import {
   EditorContext,
   EditorState,
   editorReducer,
   defaultInitialState,
-} from "./EditorContext";
+} from "../EditorContext";
 
 interface ModalProviderProps {
   children: React.ReactNode;
