@@ -1,6 +1,6 @@
 {
   "name": "custom-handler-hook",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "Package providing a hook for model component handling",
   "keywords": [
     "react",
