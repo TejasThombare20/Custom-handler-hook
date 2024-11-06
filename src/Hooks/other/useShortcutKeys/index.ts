@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export function useShortcutKeys(shortcuts: Record<string, () => void>) {
+export default function useShortcutKeys(shortcuts: Record<string, () => void>) {
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       const key = `${event.ctrlKey ? "Ctrl+" : ""}${

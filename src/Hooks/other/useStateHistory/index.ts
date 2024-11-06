@@ -1,6 +1,6 @@
 import { useCallback, useState } from "react";
 
-export function useStateHistory<T>(initialState: T) {
+export default function useStateHistory<T>(initialState: T) {
   const [state, setState] = useState<T>(initialState);
   const [history, setHistory] = useState<T[]>([initialState]);
   const [index, setIndex] = useState(0);

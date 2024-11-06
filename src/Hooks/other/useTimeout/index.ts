@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 
 // useTimeout
-export function useTimeout(callback: () => void, delay: number | null) {
+export default function useTimeout(callback: () => void, delay: number | null) {
     const savedCallback = useRef<() => void>();
   
     useEffect(() => {

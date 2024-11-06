@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function useDynamicImport<T>(
+export default function useDynamicImport<T>(
   importFunction: () => Promise<{ default: T }>
 ) {
   const [component, setComponent] = useState<T | null>(null);

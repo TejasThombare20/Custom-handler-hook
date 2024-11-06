@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function usePasswordStrength(password: string) {
+export default function usePasswordStrength(password: string) {
   const [strength, setStrength] = useState(0);
   const [feedback, setFeedback] = useState("");
 

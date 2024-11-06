@@ -1,6 +1,6 @@
 import { useCallback, useRef } from "react";
 
-export function useFocus() {
+export default function useFocus() {
   const focusRef = useRef<HTMLElement | null>(null);
 
   const setFocus = useCallback((element: HTMLElement | null) => {

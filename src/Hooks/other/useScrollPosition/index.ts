@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function useScrollPosition(element?: React.RefObject<HTMLElement>) {
+export default function useScrollPosition(element?: React.RefObject<HTMLElement>) {
   const [scrollPosition, setScrollPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {

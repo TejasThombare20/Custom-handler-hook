@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export function useHotkeys(hotkeys: Record<string, () => void>) {
+export default function useHotkeys(hotkeys: Record<string, () => void>) {
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       const key = event.key.toLowerCase();

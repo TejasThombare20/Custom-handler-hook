@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export function useEventDelegation(
+export default function useEventDelegation(
   parentRef: React.RefObject<HTMLElement>,
   eventType: string,
   selector: string,

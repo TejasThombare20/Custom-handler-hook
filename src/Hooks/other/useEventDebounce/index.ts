@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef } from "react";
 
 // Event Debouncing Hook
-export function useEventDebounce<T extends (...args: any[]) => any>(
+export default function useEventDebounce<T extends (...args: any[]) => any>(
   callback: T,
   delay: number
 ) {

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 
-export function useWebShare() {
+export default function useWebShare() {
     const [isSupported, setIsSupported] = useState(false);
   
     useEffect(() => {

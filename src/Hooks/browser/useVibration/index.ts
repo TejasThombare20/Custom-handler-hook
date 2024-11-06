@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 
 // Vibration API Hook
-export function useVibration() {
+export default function useVibration() {
     const [isSupported, setIsSupported] = useState(false);
   
     useEffect(() => {
