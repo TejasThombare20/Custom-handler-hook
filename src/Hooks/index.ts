@@ -18,3 +18,4 @@ export { default as useStateHistory } from "./other/useStateHistory";
 export { default as useThrottle } from "./other/useThrottle";
 export { default as useTimeout } from "./other/useTimeout";
 export { default as useWindowSize } from "./other/useWindowSize";
+export { default as useUrlState } from "./other/useUrlState";
